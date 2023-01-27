@@ -68,7 +68,7 @@ Both methods have their own advantages and can be used together to achieve the b
 
 # Notes and discussion of the peer reviews of defect reports
 
-Text…
+After we completed our testing, we had a zoom session to discuss the two reports. Both our reports were well written with steps easy to follow and replicate. The format for reporting a bug was properly followed. This made it really easy to post it on Jira. As expected, some of our defects were similar. For example both the pairs reported the atm dispensing the wrong amount when withdrawing cash. We worked together to split the faults that were common between the two reports so they both approximately have the same amount of faults. We also wrote the names of the member who found the fault in the report and assigned it to that specific member when reporting in Jira.
 
 # How the pair testing was managed and team work/effort was divided 
 
@@ -93,7 +93,10 @@ When performing regression testing, we started by testing the defects already fo
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+It was all of our first time reporting defects in a bug tracking system. There was a bit of a learning curve in using the Jira application, but once we got the hang of it and figured out how to navigate our way around the system, it was very easy. We realised how useful the bug tracking system could be in the development of a large application as it can get very difficult to keep track of changes/defects. Moreover, being able to link issues to one another was also a feature we thought was very useful as the steps taken to resolve one issue could be replicated to solve a similar one.
+
+Initially, we would realise we had found a bug but hadn’t kept track of the state of the system, or steps taken to replicate it. So we had trouble retracing our steps. As we got more familiar with tracking bugs, we ensured to be vigilant with which steps had been taken to reach a certain state in the system so we were aware of how to reach the bug.  
+
 
 # Comments/feedback on the lab and lab document itself
 
