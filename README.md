@@ -7,7 +7,7 @@ Read [the assignment guideline](seng438-a1.md)
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: 18      |
 |-----------------|
 | Shahzill      |   
 | Muteeba      |   
