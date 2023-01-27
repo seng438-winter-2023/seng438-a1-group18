@@ -38,7 +38,19 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 
-Text…
+## Pair 1 (Shahzill and Muteeba): 
+
+We want to test the ATM in sequence of functionality. We are going to test one function at a time, completely. 
+
+The functions we will target include: Insert card, Withdrawal, Deposit, Transfer, Balance Inquiry. 
+
+The approach we will take is to test each function until we receive an error. Once we get an error, we will do only one more test to confirm it and then move onto the next function.
+
+Our aim is to test the functionality of the entire system, so we will test each case in order. We will start with inserting a certain amount of money and attempting to withdraw more than the amount in the machine. While doing so we will also be testing the withdrawal function. We will attempt to withdraw money from each account and check balance (therefore testing the balance inquiry function) before and after to ensure the correct numbers. We will then test the deposit function once for each account. Then we will test the transfer function, attempting to transfer from each account to each account. 
+
+Our justification for this plan is that it allows for multiple functionalities to be tested simultaneously, therefore, being efficient and effective. 
+
+
 
 # Comparison of exploratory and manual functional testing
 
