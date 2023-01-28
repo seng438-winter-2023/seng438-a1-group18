@@ -38,8 +38,7 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+In this lab we were testing an ATM simulation to learn about different software testing methods. This lab focused on three testing methods: exploratory testing, manual scripted testing, and regression testing. These three methods were introduced to us during the lecture. We understood the concepts, but we were not sure how we would construct them ourselves. Our understanding of exploratory testing was that it is a method in which individuals made the tests and used them simultaneously. However, they were not completely random; they specifically tested certain aspects of the program. We executed this method of testing by coming up with two directions of exploratory testing we wanted to do on the system and executed them to see the errors we could catch. Also, our understanding of manual scripted testing was that the tests were designed first and used at a different time. We followed a set order of specifications that were listed in the instructions for this lab to make sure all the functionalities output the expected results. The test cases were given to us in Appendix C of the instructions. Lastly, our understanding of regression testing was that it was done when a system was updated to make sure the errors do not continue to happen. We reviewed the updated version of the system we were running and checked to see if the errors persisted or were fixed. This allowed us to update our bug reports based on whether the errors were still there. This lab allowed us to use the concepts we learned in class about software testing methods on a system which deepened our understanding.
 
 # High-level description of the exploratory testing plan
 
@@ -56,6 +55,16 @@ Our aim is to test the functionality of the entire system, so we will test each 
 Our justification for this plan is that it allows for multiple functionalities to be tested simultaneously, therefore, being efficient and effective. 
 
 ## Pair 2 (Rumaisa and Iman): 
+
+Our exploratory plan is to test the ATM by imitating various users accessing and using the system. We will conduct this test by doing random sequences to emulate the users; there will be no specific order.
+
+The function we will mainly focus on is the balance inquiry since this is the most important aspect that a user will be concerned with.
+
+The approach we will take is that we will test the functions until we are satisfied that they do not work properly, and we know exactly what is wrong with the functions. Once we are certain of the cause of the error, we will continue to make other transactions randomly.
+
+Our aim is to the test the ATM’s ability to keep up with the requests of different users while keeping track of their money correctly. We will start by testing all the given cards and their information to check that it accepts correct inputs while rejecting incorrect ones. Additionally, we will check the balance when we start to see if it matches the one given in the instructions. We will also check the balance after making changes through the deposit and withdrawal functions to make sure the numbers are in sync with the new changes. This will be done on both cards, and we will make sure we are getting the information for the correct card and that there are no obvious errors.
+
+Our justification for this plan is that it simulates the expectations of a real ATM and can allow us to find the errors users might encounter in a realistic manner.
 
 # Comparison of exploratory and manual functional testing
 
