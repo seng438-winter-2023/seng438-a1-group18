@@ -81,10 +81,10 @@ Pair 2: Rumaisa and Iman
 One person in the pair ran the application on their device and performed tests according to their exploratory test plan, while the other person reported the defects as they were found.
 
 For the MFT, we used the use cases in Appendix C: SUT Use Cases. We divided the 40 test cases equally amongst ourselves as follows:
-Use cases 1-10: Iman
-Use cases 11-20: Muteeba
-Use cases 21-30: Rumaisa
-Use cases 31-40: Shahzill
+- Use cases 1-10: Iman
+- Use cases 11-20: Muteeba
+- Use cases 21-30: Rumaisa
+- Use cases 31-40: Shahzill
 
 For the purpose of efficiency, if a certain member had finished performing their tests, they would start helping another member work through their use cases. This helped us save time during the MFT phase. 
 
