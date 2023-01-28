@@ -33,8 +33,7 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+In this lab we were testing an ATM simulation to learn about different software testing methods. This lab focused on three testing methods: exploratory testing, manual scripted testing, and regression testing. These three methods were introduced to us during the lecture. We understood the concepts, but we were not sure how we would construct them ourselves. Our understanding of exploratory testing was that it is a method in which individuals made the tests and used them simultaneously. However, they were not completely random; they specifically tested certain aspects of the program. We executed this method of testing by coming up with two directions of exploratory testing we wanted to do on the system and executed them to see the errors we could catch. Also, our understanding of manual scripted testing was that the tests were designed first and used at a different time. We followed a set order of specifications that were listed in the instructions for this lab to make sure all the functionalities output the expected results. The test cases were given to use in Appendix C of the instructions. Lastly, our understanding of regression testing was that it was done when a system was updated to make sure the errors do not continue to happen. We reviewed the updated version of the system we were running and checked to see if the errors persisted or were fixed. This allowed us to update our bug reports based on whether the errors were still there.  This lab allowed us to use the concepts we learned in class about software testing methods on a system which deepened our understanding.
 
 # High-level description of the exploratory testing plan
 
